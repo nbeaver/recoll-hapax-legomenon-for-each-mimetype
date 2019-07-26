@@ -33,4 +33,4 @@ show-files :
 	xapian-delve -1 -A Q"$$(realpath .)" ~/.recoll/xapiandb/
 
 clean :
-	rm -f -- $(FILES)
+	rm -f -- $(FILES) $(TOP_DIR)/Makefile
