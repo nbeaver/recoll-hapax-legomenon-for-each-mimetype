@@ -26,3 +26,7 @@ search :
 .PHONY: search-quiet
 search-quiet :
 	-find $(TOP_DIR)/ -name '.gitignore' -prune -o -type f -exec ./recoll-contents.sh '{}' \; | grep 'results' | grep -xv '1 results'
+
+.PHONY: show-files
+show-files :
+	xapian-delve -1 -A Q"$$(realpath .)" ~/.recoll/xapiandb/
