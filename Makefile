@@ -1,4 +1,6 @@
 CMD:=apg -n 1 -M L
+# -n 1: generate just one
+# -M l: lowercase letters only
 TOP_DIR:=out
 BASE_FILENAME:=hapax_legomenon
 SUFFIXES:=awk c desktop markdown mdown md pl py rst sh tex txt
