@@ -22,3 +22,7 @@ index :
 search :
 	# Use command substitution instead of `cat`.
 	find $(TOP_DIR)/ -name '.gitignore' -prune -o -type f -exec ./recoll-contents.sh '{}' \;
+
+.PHONY: search-quiet
+search-quiet :
+	-find $(TOP_DIR)/ -name '.gitignore' -prune -o -type f -exec ./recoll-contents.sh '{}' \; | grep 'results' | grep -xv '1 results'
