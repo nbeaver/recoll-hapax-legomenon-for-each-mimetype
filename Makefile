@@ -1,6 +1,7 @@
-CMD:=apg -n 1 -M L
+CMD:=apg -n 1 -M L -m 30
 # -n 1: generate just one
 # -M l: lowercase letters only
+# -m 30: minimum of 30 characters
 TOP_DIR:=out
 BASE_FILENAME:=hapax_legomenon
 SUFFIXES:=awk c desktop markdown mdown md pl py rst sh tex txt
