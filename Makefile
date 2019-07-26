@@ -12,3 +12,7 @@ $(TOP_DIR)/Makefile :
 
 $(TOP_DIR)/$(BASE_FILENAME).%:
 	$(CMD) > $@
+
+.PHONY: index
+index :
+	find $(TOP_DIR)/ -print | recollindex -e -i
