@@ -21,7 +21,7 @@ index :
 .PHONY: search
 search :
 	# Use command substitution instead of `cat`.
-	find $(TOP_DIR)/ -name '.gitignore' -prune -o -type f -exec ./recoll-contents.sh '{}' \;
+	find $(TOP_DIR)/ -name '.gitignore' -prune -o -type f -print -exec ./recoll-contents.sh '{}' \;
 
 .PHONY: search-quiet
 search-quiet :
