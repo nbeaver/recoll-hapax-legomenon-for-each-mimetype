@@ -13,6 +13,9 @@ all : $(FILES) $(TOP_DIR)/Makefile
 $(TOP_DIR)/Makefile :
 	$(CMD) > $@
 
+$(TOP_DIR)/$(BASE_FILENAME).desktop :
+	./generate-desktop.sh $$($(CMD)) > $@
+
 $(TOP_DIR)/$(BASE_FILENAME).%:
 	$(CMD) > $@
 
