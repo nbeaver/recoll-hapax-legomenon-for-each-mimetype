@@ -41,23 +41,22 @@ Icon=folder
 EOF
 printf "${unique_word}\n" >> ${hapax_list}
 
-# TODO: decide if HTML is worth it or not.
-#unique_word=$(get_unique_word)
-#cat << EOF > ${out_dir}/${base_filename}.html
-#<!DOCTYPE html>
-#<html lang="en">
-#  <head>
-#    <meta charset="utf-8">
-#    <title>$unique_word</title>
-#    <link rel="stylesheet" href="style.css">
-#    <script src="script.js"></script>
-#  </head>
-#  <body>
-#    <p>Example HTML document.</p>
-#  </body>
-#</html>
-#EOF
-#printf "${unique_word}\n" >> ${hapax_list}
+unique_word=$(get_unique_word)
+cat << EOF > ${out_dir}/${base_filename}.html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>$unique_word</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <p>Example HTML document.</p>
+  </body>
+</html>
+EOF
+printf "${unique_word}\n" >> ${hapax_list}
 
 unique_word=$(get_unique_word)
 cat << EOF > ${out_dir}/${base_filename}.awk
