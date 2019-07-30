@@ -1,4 +1,12 @@
 TOP_DIR:=out
+
+.PHONY: regenerate
+regnenerate :
+	./generate-files.sh ${TOP_DIR}
+	find $(TOP_DIR)/ -print | recollindex -e -i
+	./search-for-files.sh out/hapax_list.txt | less
+
+
 .PHONY: generate-files
 generate-files :
 	./generate-files.sh ${TOP_DIR}
