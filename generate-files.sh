@@ -32,6 +32,14 @@ EOF
 printf "${unique_word}\n" >> ${hapax_list}
 
 unique_word=$(get_unique_word)
+cat << EOF > ${out_dir}/${base_filename}.csv
+a,b,c
+1,2,${unique_word}
+4,5,6
+EOF
+printf "${unique_word}\n" >> ${hapax_list}
+
+unique_word=$(get_unique_word)
 cat << EOF > ${out_dir}/${base_filename}.desktop
 [Desktop Entry]
 Name=$unique_word
@@ -145,6 +153,14 @@ cat << EOF > ${out_dir}/${base_filename}.tex
 \LaTeX
 \\${unique_word}
 \end{document}
+EOF
+printf "${unique_word}\n" >> ${hapax_list}
+
+unique_word=$(get_unique_word)
+cat << EOF > ${out_dir}/${base_filename}.tsv
+a	b	c
+1	2	${unique_word}
+4	5	6
 EOF
 printf "${unique_word}\n" >> ${hapax_list}
 
