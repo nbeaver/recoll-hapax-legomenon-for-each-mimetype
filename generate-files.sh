@@ -142,6 +142,12 @@ EOF
 printf "${unique_word}\n" >> ${hapax_list}
 
 unique_word=$(get_unique_word)
+cat << EOF > ${out_dir}/${base_filename}.log
+${unique_word}
+EOF
+printf "${unique_word}\n" >> ${hapax_list}
+
+unique_word=$(get_unique_word)
 cat << EOF > ${out_dir}/${base_filename}.markdown
 # An example Markdown document #
 
