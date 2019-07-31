@@ -126,6 +126,25 @@ EOF
 printf "${unique_word}\n" >> ${hapax_list}
 
 unique_word=$(get_unique_word)
+cat << EOF > ${out_dir}/${base_filename}.ics
+BEGIN:VCALENDAR
+PRODID:-//ACME/DesktopCalendar//EN
+VERSION:2.0
+X-WR-RELCALID:12345
+BEGIN:VEVENT
+DTSTART:20101010T100000Z
+DTEND:20101010T120000Z
+CREATED:20101010T100000Z
+UID:123456
+SUMMARY: ${unique_word}
+DESCRIPTION: This is an example description.
+LOCATION: Example location.
+END:VEVENT
+END:VCALENDAR
+EOF
+printf "${unique_word}\n" >> ${hapax_list}
+
+unique_word=$(get_unique_word)
 cat << EOF > ${out_dir}/${base_filename}.js
 // ${unique_word}
 console.log("Hello world!")
