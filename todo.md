@@ -4,5 +4,6 @@
 - [x] .html files (text/html)
 - [x] .js files (application/javascript)
 - [x] .json files (application/json)
+- [x] .log files (text/x-log)
 - [x] .tex files (text/x-tex)
 - [x] .tsv files (text/tab-separated-values)
