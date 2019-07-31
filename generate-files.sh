@@ -74,7 +74,7 @@ cat << EOF > ${out_dir}/${base_filename}.desktop
 [Desktop Entry]
 Name=$unique_word
 Type=Link
-URL=file://
+URL=file:///
 Icon=folder
 EOF
 printf "${unique_word}\n" >> ${hapax_list}
