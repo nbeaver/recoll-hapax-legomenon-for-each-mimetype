@@ -1,0 +1,8 @@
+- [x] .css files (text/css)
+- [x] .csv files (text/x-csv)
+- [x] .desktop files (text/x-desktop)
+- [x] .html files (text/html)
+- [x] .js files (application/javascript)
+- [x] .json files (application/json)
+- [x] .tex files (text/x-tex)
+- [x] .tsv files (text/tab-separated-values)
