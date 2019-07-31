@@ -62,6 +62,16 @@ EOF
 printf "${unique_word}\n" >> ${hapax_list}
 
 unique_word=$(get_unique_word)
+cat << EOF > ${out_dir}/${base_filename}.css
+/* This is a comment.
+   "${unique_word}" */
+h1 {
+    color: red;
+}
+EOF
+printf "${unique_word}\n" >> ${hapax_list}
+
+unique_word=$(get_unique_word)
 cat << EOF > ${out_dir}/${base_filename}.csv
 a,b,c
 1,2,${unique_word}
@@ -112,6 +122,13 @@ int main(int argc, char *argv[]) {
 	printf("${unique_word}\n");
 	return 0;
 }
+EOF
+printf "${unique_word}\n" >> ${hapax_list}
+
+unique_word=$(get_unique_word)
+cat << EOF > ${out_dir}/${base_filename}.js
+// ${unique_word}
+console.log("Hello world!")
 EOF
 printf "${unique_word}\n" >> ${hapax_list}
 
