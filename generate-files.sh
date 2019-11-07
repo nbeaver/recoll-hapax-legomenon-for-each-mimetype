@@ -202,6 +202,17 @@ EOF
 printf "${unique_word}\n" >> ${hapax_list}
 
 unique_word=$(get_unique_word)
+cat << EOF > ${out_dir}/${base_filename}.ps
+%!PS
+/Sans
+12 selectfont
+100 500 moveto
+(${unique_word}) show
+showpage
+EOF
+printf "${unique_word}\n" >> ${hapax_list}
+
+unique_word=$(get_unique_word)
 cat << EOF > ${out_dir}/${base_filename}.py
 #! /usr/bin/env python
 from __future__ import print_function
