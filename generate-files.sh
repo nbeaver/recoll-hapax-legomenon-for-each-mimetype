@@ -90,6 +90,17 @@ EOF
 printf "${unique_word}\n" >> ${hapax_list}
 
 unique_word=$(get_unique_word)
+cat << EOF > ${out_dir}/${base_filename}.gnuplot
+#! /usr/bin/env gnuplot
+set terminal pngcairo
+set xlabel "Time [s]"
+set ylabel "Distance [m]"
+myvar = "$unique_word"
+print "myvar = ", myvar
+EOF
+printf "${unique_word}\n" >> ${hapax_list}
+
+unique_word=$(get_unique_word)
 cat << EOF > ${out_dir}/${base_filename}.html
 <!DOCTYPE html>
 <html lang="en">

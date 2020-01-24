@@ -1,6 +1,7 @@
 - [x] .css files (text/css)
 - [x] .csv files (text/x-csv)
 - [x] .desktop files (text/x-desktop)
+- [x] .gnuplot files (application/x-gnuplot)
 - [x] .html files (text/html)
 - [x] .js files (application/javascript)
 - [x] .json files (application/json)
