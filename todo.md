@@ -8,3 +8,4 @@
 - [x] .log files (text/x-log)
 - [x] .tex files (text/x-tex)
 - [x] .tsv files (text/tab-separated-values)
+- [ ] .ipynb files (application/x-ipynb+json a.k.a. IPython notebook files)
