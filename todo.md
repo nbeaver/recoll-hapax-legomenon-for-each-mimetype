@@ -1,4 +1,3 @@
-- [ ] .rtf  files (application/rtf)
 - [ ] text/x-srt files
 - [ ] text/troff files
 - [ ] .ipynb files (application/x-ipynb+json a.k.a. IPython notebook files)
