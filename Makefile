@@ -1,4 +1,5 @@
 TOP_DIR:=out
+TIMESTAMP=$(shell date +%s)
 
 .PHONY: regenerate
 regnenerate :
@@ -10,6 +11,10 @@ regnenerate :
 .PHONY: generate-files
 generate-files :
 	./generate-files.sh ${TOP_DIR}
+
+.PHONY: time-generate-files
+time-generate-files :
+	/usr/bin/time -o time_$(TIMESTAMP).log --verbose ./generate-files.sh ${TOP_DIR}
 
 .PHONY: index
 index :
