@@ -1,5 +1,6 @@
 out/AUTHORS	text/x-authors
 out/COPYING	text/x-copying
+out/HAPAX.F	text/x-fortran
 out/INSTALL	text/x-install
 out/LICENSE	text/plain
 out/Makefile	text/x-makefile
@@ -11,6 +12,7 @@ out/hapax_legomenon.c	text/x-csrc
 out/hapax_legomenon.css	text/css
 out/hapax_legomenon.csv	text/csv
 out/hapax_legomenon.desktop	application/x-desktop
+out/hapax_legomenon.f90	text/x-fortran
 out/hapax_legomenon.gnuplot	application/x-gnuplot
 out/hapax_legomenon.h	text/x-chdr
 out/hapax_legomenon.html	text/html
@@ -28,6 +30,7 @@ out/hapax_legomenon.nb	application/vnd.wolfram.nb
 out/hapax_legomenon.pl	application/x-perl
 out/hapax_legomenon.ps	application/postscript
 out/hapax_legomenon.py	text/x-python
+out/hapax_legomenon.rb	application/x-ruby
 out/hapax_legomenon.rst	text/x-rst
 out/hapax_legomenon.rtf	application/rtf
 out/hapax_legomenon.scad	application/x-openscad
