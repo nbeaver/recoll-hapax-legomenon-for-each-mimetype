@@ -1,24 +1,20 @@
+TEMPLATES:=templates
 TOP_DIR:=out
 TIMESTAMP=$(shell date +%s)
 
-.PHONY: regenerate-py
-regnenerate-py :
-	./generate_files.py templates/ out/
-
 .PHONY: regenerate
 regnenerate :
-	./generate-files.sh ${TOP_DIR}
+	./generate_files.py $(TEMPLATES)/ $(TOP_DIR)/
 	find $(TOP_DIR)/ -print | recollindex -e -i
 	./search-for-files.sh out/hapax_list.txt | less
 
-
 .PHONY: generate-files
 generate-files :
-	./generate-files.sh ${TOP_DIR}
+	./generate_files.py $(TEMPLATES)/ $(TOP_DIR)/
 
 .PHONY: time-generate-files
 time-generate-files :
-	/usr/bin/time -o time_$(TIMESTAMP).log --verbose ./generate-files.sh ${TOP_DIR}
+	/usr/bin/time -o time_$(TIMESTAMP).log --verbose ./generate_files.py $(TEMPLATES)/ $(TOP_DIR)/
 
 .PHONY: index
 index :
