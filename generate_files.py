@@ -44,9 +44,9 @@ def write_files(template_dir, output_dir):
             template_str = template_fp.read()
         template = string.Template(template_str)
         unique_str = unique_string()
-        hapax_list_fp.write(unique_str + '\n')
-        payload = template.substitute(unique_word=unique_str)
         filename = os.path.basename(template_path)
+        hapax_list_fp.write(filename + '\t' + unique_str + '\n')
+        payload = template.substitute(unique_word=unique_str)
         out_path = os.path.join(output_dir, filename)
         with open(out_path, 'w') as out_fp:
             logging.info("writing to file '{}'".format(out_path))
