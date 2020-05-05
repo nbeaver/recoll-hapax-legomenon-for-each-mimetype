@@ -156,6 +156,20 @@ EOF
 printf "${unique_word}\n" >> ${hapax_list}
 
 unique_word=$(get_unique_word)
+cat << EOF > ${out_dir}/${base_filename}.ini
+[section1]
+myboolean=true
+myboolean2=false
+mystring=Example string
+myinteger=123
+; ${unique_word}
+[section2]
+name1=John Doe
+name2=Jane Doe
+EOF
+printf "${unique_word}\n" >> ${hapax_list}
+
+unique_word=$(get_unique_word)
 cat << EOF > ${out_dir}/${base_filename}.java
 public class HelloWorld
 {
