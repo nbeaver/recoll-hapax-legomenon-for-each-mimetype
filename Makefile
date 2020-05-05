@@ -12,6 +12,11 @@ regnenerate :
 generate-files :
 	./generate_files.py $(TEMPLATES)/ $(TOP_DIR)/
 
+.PHONY: generate-files-debug
+generate-files-debug :
+	./generate_files.py --debug $(TEMPLATES)/ $(TOP_DIR)/
+
+
 .PHONY: time-generate-files
 time-generate-files :
 	/usr/bin/time -o time_$(TIMESTAMP).log --verbose ./generate_files.py $(TEMPLATES)/ $(TOP_DIR)/
