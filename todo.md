@@ -3,6 +3,7 @@
 - [x] .desktop files (text/x-desktop)
 - [x] .gnuplot files (application/x-gnuplot)
 - [x] .html files (text/html)
+- [ ] .java files (text/x-java)
 - [x] .js files (application/javascript)
 - [x] .json files (application/json)
 - [x] .log files (text/x-log)

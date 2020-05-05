@@ -156,6 +156,19 @@ EOF
 printf "${unique_word}\n" >> ${hapax_list}
 
 unique_word=$(get_unique_word)
+cat << EOF > ${out_dir}/${base_filename}.java
+public class HelloWorld
+{
+	public static void main(String[] args)
+	{
+		System.out.print("${unique_word}");
+		System.out.println();
+	}
+}
+EOF
+printf "${unique_word}\n" >> ${hapax_list}
+
+unique_word=$(get_unique_word)
 cat << EOF > ${out_dir}/${base_filename}.js
 // ${unique_word}
 console.log("Hello world!")
