@@ -6,6 +6,7 @@ TIMESTAMP=$(shell date +%s)
 regnenerate :
 	./generate_files.py $(TEMPLATES)/ $(TOP_DIR)/
 	find $(TOP_DIR)/ -print | recollindex -e -i
+	./get-mimetypes.sh out/* > mimetypes.txt
 	./search-for-files.sh out/hapax_list.txt | less
 
 .PHONY: generate-files
