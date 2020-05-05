@@ -300,6 +300,14 @@ EOF
 printf "${unique_word}\n" >> ${hapax_list}
 
 unique_word=$(get_unique_word)
+cat << EOF > ${out_dir}/${base_filename}.ss
+#!/usr/bin/env racket
+#lang racket
+(display "${unique_word}") (newline)
+EOF
+printf "${unique_word}\n" >> ${hapax_list}
+
+unique_word=$(get_unique_word)
 cat << EOF > ${out_dir}/${base_filename}.tex
 \documentclass{article}
 \begin{document}
