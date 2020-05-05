@@ -1,6 +1,10 @@
 TOP_DIR:=out
 TIMESTAMP=$(shell date +%s)
 
+.PHONY: regenerate-py
+regnenerate-py :
+	./generate_files.py templates/ out/
+
 .PHONY: regenerate
 regnenerate :
 	./generate-files.sh ${TOP_DIR}

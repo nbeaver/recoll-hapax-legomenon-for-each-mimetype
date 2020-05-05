@@ -1,0 +1,22 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"${unique_word}", " ", "=", " ", "10"}]], "Input",
+ CellChangeTimes->{{3.789322702668792*^9, 3.789322703547069*^9}},
+ CellLabel->
+  "In[160]:=",ExpressionUUID->"3622162c-c79a-4302-b53f-3d391de87942"],
+Cell[BoxData["10"], "Output",
+ CellChangeTimes->{3.789322704804154*^9},
+ CellLabel->
+  "Out[160]=",ExpressionUUID->"476d27b3-39d6-4bc9-a29b-4c9e2eb52ca8"]
+}, Open  ]]
+},
+WindowSize->{956, 805},
+WindowMargins->{{320, Automatic}, {0, Automatic}},
+FrontEndVersion->"12.0 for Linux x86 (64-bit) (April 8, 2019)",
+StyleDefinitions->"Default.nb"
+]

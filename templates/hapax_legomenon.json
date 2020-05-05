@@ -1,0 +1,4 @@
+{
+  "key1" : "example value",
+  "key2" : "${unique_word}"
+}
