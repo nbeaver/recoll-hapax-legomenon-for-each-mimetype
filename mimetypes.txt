@@ -31,6 +31,7 @@ out/hapax_legomenon.pl	application/x-perl
 out/hapax_legomenon.ps	application/postscript
 out/hapax_legomenon.py	text/x-python
 out/hapax_legomenon.rb	application/x-ruby
+out/hapax_legomenon.rs	text/rust
 out/hapax_legomenon.rst	text/x-rst
 out/hapax_legomenon.rtf	application/rtf
 out/hapax_legomenon.scad	application/x-openscad
@@ -40,5 +41,6 @@ out/hapax_legomenon.ss	text/x-scheme
 out/hapax_legomenon.tex	text/x-tex
 out/hapax_legomenon.tsv	text/tab-separated-values
 out/hapax_legomenon.txt	text/plain
+out/hapax_legomenon.vb	application/x-virtual-boy-rom
 out/hapax_legomenon.vtt	text/vtt
 out/hapax_list.txt	text/plain

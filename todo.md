@@ -1,3 +1,4 @@
-- [ ] text/x-srt files
+- [ ] .srt subtitle files (text/x-srt)
 - [ ] text/troff files
+- [ ] .lyx files
 - [ ] .ipynb files (application/x-ipynb+json a.k.a. IPython notebook files)
