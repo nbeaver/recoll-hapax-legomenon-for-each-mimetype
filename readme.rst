@@ -50,15 +50,42 @@ How to add a new mimetype:
       # Add this line:
       .java = text/plain
 
-  For files that have varying file extensions
-  or need extra processing,
-  these files will need to be modified also:
+  However, this means that a Recoll search for
+  ``mime:text/x-java`` will yield no results.
+  To keep the mimetype, do this::
 
-  - ~/.recoll/mimeconf
+      $ edit ~/.recoll/mimemap
+      # Add this line:
+      .java = text/x-java
+      $ edit ~/.recoll/mimeconf
+      # Add this line:
+      text/x-java = internal text/plain
+      $ edit ~/.recoll/recoll.conf
+      # Add 'text/x-java' to 'indexedmimetypes'
 
-  - ~/.recoll/recoll.conf
+  For files that have varying file extensions,
+  such as C++, markdown, or gnuplot,
+  use this::
 
-    Specifically ``indexedmimetypes``
+      $ edit ~/.recoll/mimemap
+      # Add these lines:
+      .cc  = text/x-c++src
+      .cpp = text/x-c++src
+      .cxx = text/x-c++src
+      $ edit ~/.recoll/mimeconf
+      # Add this line:
+      text/x-c++src = internal text/plain
+      $ edit ~/.recoll/recoll.conf
+      # Add 'text/x-c++src' to 'indexedmimetypes'
+
+  For files that cannot need extra processing,
+  e.g. if they are compressed,
+  see ``/usr/share/recoll/examples/mimeconf``.
+
+  For files that don't have a consistent file extension,
+  such as man pages,
+  
+  .. TODO: finish this
 
 - Run ``make`` and observe there are now 2 matches.
 

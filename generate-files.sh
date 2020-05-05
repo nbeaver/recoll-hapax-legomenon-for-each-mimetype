@@ -307,6 +307,13 @@ EOF
 printf "${unique_word}\n" >> ${hapax_list}
 
 unique_word=$(get_unique_word)
+cat << EOF > ${out_dir}/${base_filename}.scad
+cube(5);
+echo("${unique_word}");
+EOF
+printf "${unique_word}\n" >> ${hapax_list}
+
+unique_word=$(get_unique_word)
 cat << EOF > ${out_dir}/${base_filename}.sh
 #!/usr/bin/env sh
 printf '%s\n' "${unique_word}"
