@@ -5,6 +5,7 @@ out/LICENSE	text/plain
 out/Makefile	text/x-makefile
 out/README	text/x-readme
 out/hapax_legomenon.awk	application/x-awk
+out/hapax_legomenon.bib	text/x-bibtex
 out/hapax_legomenon.c	text/x-csrc
 out/hapax_legomenon.css	text/css
 out/hapax_legomenon.csv	text/csv
