@@ -27,6 +27,7 @@ out/hapax_legomenon.pl	application/x-perl
 out/hapax_legomenon.ps	application/postscript
 out/hapax_legomenon.py	text/x-python
 out/hapax_legomenon.rst	text/x-rst
+out/hapax_legomenon.rtf	application/rtf
 out/hapax_legomenon.scad	application/x-openscad
 out/hapax_legomenon.sh	application/x-shellscript
 out/hapax_legomenon.sql	application/sql
