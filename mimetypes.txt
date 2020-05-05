@@ -22,6 +22,8 @@ out/hapax_legomenon.java	text/x-java
 out/hapax_legomenon.js	application/javascript
 out/hapax_legomenon.json	application/json
 out/hapax_legomenon.log	text/x-log
+out/hapax_legomenon.lua	text/x-lua
+out/hapax_legomenon.lyx	application/x-lyx
 out/hapax_legomenon.m	text/x-matlab
 out/hapax_legomenon.markdown	text/markdown
 out/hapax_legomenon.md	text/markdown
