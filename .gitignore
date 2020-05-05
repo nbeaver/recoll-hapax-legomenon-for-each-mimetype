@@ -1,1 +1,3 @@
 time_*.log
+# Ignore lock files.
+.~lock.*#
