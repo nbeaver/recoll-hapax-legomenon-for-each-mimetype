@@ -314,6 +314,13 @@ EOF
 printf "${unique_word}\n" >> ${hapax_list}
 
 unique_word=$(get_unique_word)
+cat << EOF > ${out_dir}/${base_filename}.sql
+SELECT * FROM ${unique_word} WHERE parent=768
+ORDER BY sortkey, name LIMIT 20 OFFSET 3;
+EOF
+printf "${unique_word}\n" >> ${hapax_list}
+
+unique_word=$(get_unique_word)
 cat << EOF > ${out_dir}/${base_filename}.ss
 #!/usr/bin/env racket
 #lang racket

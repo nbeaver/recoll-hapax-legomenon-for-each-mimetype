@@ -8,6 +8,7 @@
 - [x] .js files (application/javascript)
 - [x] .json files (application/json)
 - [x] .log files (text/x-log)
+- [ ] .sql files (application/sql)
 - [x] .ss files (text/x-scheme)
 - [x] .tex files (text/x-tex)
 - [x] .tsv files (text/tab-separated-values)
