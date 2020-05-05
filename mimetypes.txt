@@ -9,6 +9,7 @@ out/hapax_legomenon.awk	application/x-awk
 out/hapax_legomenon.bib	text/x-bibtex
 out/hapax_legomenon.bibtex	text/plain
 out/hapax_legomenon.c	text/x-csrc
+out/hapax_legomenon.conf	text/plain
 out/hapax_legomenon.css	text/css
 out/hapax_legomenon.csv	text/csv
 out/hapax_legomenon.desktop	application/x-desktop
