@@ -1,0 +1,5 @@
+.TH example 1 "1 Jan 1970" "1.0"
+.SH NAME
+example man page
+.PP
+\f[I]${unique_word}\f[].

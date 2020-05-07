@@ -2,7 +2,12 @@
 - [ ] text/troff files (e.g. ~/.local/share/man/man1/youtube-dl.1 )
 - [ ] .dvi files
 - [ ] .epub files
+- [ ] .ly files (lilypond)
 - [ ] .mobi files
+- [ ] .info files
+- [ ] .texinfo files
+- [ ] .1.gz files (man pages)
+- [ ] docbook XML
 
 Maybe
 -----
