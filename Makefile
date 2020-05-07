@@ -17,6 +17,9 @@ generate-files :
 generate-files-debug :
 	./generate_files.py --debug $(TEMPLATES)/ $(TOP_DIR)/
 
+.PHONY: mimetypes.txt
+mimetypes.txt :
+	./get-mimetypes.sh out/* > mimetypes.txt
 
 .PHONY: time-generate-files
 time-generate-files :
