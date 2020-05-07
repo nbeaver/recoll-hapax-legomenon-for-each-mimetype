@@ -45,6 +45,8 @@ out/hapax_legomenon.sh	application/x-shellscript
 out/hapax_legomenon.sql	application/sql
 out/hapax_legomenon.ss	text/x-scheme
 out/hapax_legomenon.tex	text/x-tex
+out/hapax_legomenon.texi	text/x-texinfo
+out/hapax_legomenon.texinfo	text/x-texinfo
 out/hapax_legomenon.tsv	text/tab-separated-values
 out/hapax_legomenon.txt	text/plain
 out/hapax_legomenon.vb	application/x-virtual-boy-rom

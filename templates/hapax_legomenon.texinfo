@@ -29,6 +29,7 @@ This manual is for GNU Sample
 * Index::            Complete index.
 @end menu
 
+${unique_word}
 
 @node First Chapter
 @chapter First Chapter
