@@ -5,7 +5,7 @@
 - [ ] .ly files (lilypond)
 - [ ] .mobi files
 - [ ] .info files
-- [ ] .texinfo files
+- [x] .texinfo/.texi files (text/x-texinfo)
 - [ ] .tcl files
 - [ ] .1.gz files (man pages)
 - [ ] .yaml/.yml files (YAML)
