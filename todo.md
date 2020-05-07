@@ -6,7 +6,9 @@
 - [ ] .mobi files
 - [ ] .info files
 - [ ] .texinfo files
+- [ ] .tcl files
 - [ ] .1.gz files (man pages)
+- [ ] .yaml/.yml files (YAML)
 - [ ] docbook XML
 
 Maybe
