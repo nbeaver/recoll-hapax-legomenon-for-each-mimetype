@@ -4,14 +4,13 @@
 - [ ] .epub files
 - [ ] .ly files (lilypond)
 - [ ] .mobi files
-- [ ] .info files
-- [x] .texinfo/.texi files (text/x-texinfo)
 - [ ] .tcl files
-- [ ] .1.gz files (man pages)
 - [ ] .yaml/.yml files (YAML)
 - [ ] docbook XML
 
 Maybe
 -----
 
+- [ ] .1.gz files (man pages) (application/gzip vs. text/troff)
+- [ ] .info files (only recognized as text/plain by default)
 - [ ] .ipynb files, application/x-ipynb+json a.k.a. IPython notebook files (or just export HTML/PDF?)
