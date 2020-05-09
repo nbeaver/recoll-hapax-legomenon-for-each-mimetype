@@ -20,6 +20,7 @@ out/hapax_legomenon.h	text/x-chdr
 out/hapax_legomenon.hs	text/x-haskell
 out/hapax_legomenon.html	text/html
 out/hapax_legomenon.ics	text/calendar
+out/hapax_legomenon.info	application/x-info
 out/hapax_legomenon.ini	text/plain
 out/hapax_legomenon.java	text/x-java
 out/hapax_legomenon.js	application/javascript
@@ -44,6 +45,7 @@ out/hapax_legomenon.scad	application/x-openscad
 out/hapax_legomenon.sh	application/x-shellscript
 out/hapax_legomenon.sql	application/sql
 out/hapax_legomenon.ss	text/x-scheme
+out/hapax_legomenon.tcl	text/x-tcl
 out/hapax_legomenon.tex	text/x-tex
 out/hapax_legomenon.texi	text/x-texinfo
 out/hapax_legomenon.texinfo	text/x-texinfo
