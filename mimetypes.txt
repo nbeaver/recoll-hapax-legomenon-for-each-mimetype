@@ -20,7 +20,7 @@ out/hapax_legomenon.h	text/x-chdr
 out/hapax_legomenon.hs	text/x-haskell
 out/hapax_legomenon.html	text/html
 out/hapax_legomenon.ics	text/calendar
-out/hapax_legomenon.info	application/x-info
+out/hapax_legomenon.info	application/x-gnuinfo
 out/hapax_legomenon.ini	text/plain
 out/hapax_legomenon.java	text/x-java
 out/hapax_legomenon.js	application/javascript
@@ -53,4 +53,6 @@ out/hapax_legomenon.tsv	text/tab-separated-values
 out/hapax_legomenon.txt	text/plain
 out/hapax_legomenon.vb	application/x-virtual-boy-rom
 out/hapax_legomenon.vtt	text/vtt
+out/hapax_legomenon.yaml	application/x-yaml
+out/hapax_legomenon.yml	application/x-yaml
 out/hapax_list.txt	text/plain

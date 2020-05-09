@@ -4,7 +4,7 @@
 - [ ] .epub files
 - [ ] .ly files (lilypond)
 - [ ] .mobi files
-- [ ] .tcl files
+- [ ] .toml file
 - [ ] .yaml/.yml files (YAML)
 - [ ] docbook XML
 
