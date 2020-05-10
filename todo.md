@@ -6,6 +6,8 @@
 - [ ] .toml file
 - [ ] docbook XML, application/x-docbook+xml (.dbk, .xml)
 - [ ] .diff / .patch files
+- [ ] .vcf (text/vcard)
+- [ ] .pdf
 
 Maybe
 -----
