@@ -6,7 +6,8 @@ TIMESTAMP=$(shell date +%s)
 regnenerate :
 	./generate_files.py $(TEMPLATES)/ $(TOP_DIR)/
 	find $(TOP_DIR)/ -print | recollindex -e -i
-	./get-mimetypes.sh out/* > mimetypes.txt
+	./get-file-mimetypes.sh out/* > file-mimetypes.txt
+	./get-mimetypes.sh out/* | sort | uniq > mimetypes.txt
 	./search-for-files.sh out/hapax_list.txt | less
 
 .PHONY: generate-files
@@ -19,7 +20,11 @@ generate-files-debug :
 
 .PHONY: mimetypes.txt
 mimetypes.txt :
-	./get-mimetypes.sh out/* > mimetypes.txt
+	./get-mimetypes.sh out/* | sort | uniq > mimetypes.txt
+
+.PHONY: file-mimetypes.txt
+file-mimetypes.txt :
+	./get-file-mimetypes.sh out/* > file-mimetypes.txt
 
 .PHONY: time-generate-files
 time-generate-files :
