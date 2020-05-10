@@ -4,9 +4,7 @@
 - [ ] .ly files (lilypond)
 - [ ] .mobi files
 - [ ] .toml file
-- [ ] .yaml/.yml files (YAML)
 - [ ] docbook XML, application/x-docbook+xml (.dbk, .xml)
-- [ ] .eml file (message/rfc822)
 - [ ] .diff / .patch files
 
 Maybe
