@@ -53,6 +53,7 @@ out/hapax_legomenon.texinfo	text/x-texinfo
 out/hapax_legomenon.tsv	text/tab-separated-values
 out/hapax_legomenon.txt	text/plain
 out/hapax_legomenon.vb	application/x-virtual-boy-rom
+out/hapax_legomenon.vcf	text/vcard
 out/hapax_legomenon.vtt	text/vtt
 out/hapax_legomenon.yaml	application/x-yaml
 out/hapax_legomenon.yml	application/x-yaml

@@ -13,6 +13,7 @@ END:vCard
 BEGIN:vCard
 VERSION:3.0
 FN:Tim Howes
+NOTE:${unique_word}
 ORG:Netscape Communications Corp.
 ADR;TYPE=WORK:;;501 E. Middlefield Rd.;Mountain View;
  CA; 94043;U.S.A.

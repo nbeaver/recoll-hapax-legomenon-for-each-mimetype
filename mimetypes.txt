@@ -25,6 +25,7 @@ text/markdown
 text/plain
 text/rust
 text/tab-separated-values
+text/vcard
 text/vtt
 text/x-authors
 text/x-bibtex
