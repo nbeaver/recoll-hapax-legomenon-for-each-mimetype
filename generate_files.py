@@ -38,7 +38,9 @@ def unique_string():
 def write_files(template_dir, output_dir):
     hapax_list_path = os.path.join(output_dir, "hapax_list.txt")
     hapax_list_fp = open(hapax_list_path, 'w')
-    for template_path in glob.glob(template_dir + '/*'):
+    # "results are returned in arbitrary order.",
+    # so we must sort them.
+    for template_path in sorted(glob.glob(template_dir + '/*')):
         logging.info("attempting to read template file '{}'".format(template_path))
         with open(template_path) as template_fp:
             template_str = template_fp.read()
