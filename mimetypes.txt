@@ -14,6 +14,7 @@ out/hapax_legomenon.conf	text/plain
 out/hapax_legomenon.css	text/css
 out/hapax_legomenon.csv	text/csv
 out/hapax_legomenon.desktop	application/x-desktop
+out/hapax_legomenon.eml	message/rfc822
 out/hapax_legomenon.f90	text/x-fortran
 out/hapax_legomenon.gnuplot	application/x-gnuplot
 out/hapax_legomenon.h	text/x-chdr
