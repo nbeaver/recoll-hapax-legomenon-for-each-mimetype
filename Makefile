@@ -5,6 +5,7 @@ TIMESTAMP=$(shell date +%s)
 .PHONY: regenerate
 regnenerate :
 	./generate_files.py $(TEMPLATES)/ $(TOP_DIR)/
+	touch $(TOP_DIR)/manual_unique_string.*
 	find $(TOP_DIR)/ -print | recollindex -e -i
 	./get-file-mimetypes.sh out/* > file-mimetypes.txt
 	./get-mimetypes.sh out/* | sort | uniq > mimetypes.txt
