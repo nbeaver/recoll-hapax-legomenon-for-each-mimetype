@@ -52,8 +52,11 @@ How to add a new mimetype:
       text/plain	[file:///home/nathaniel/Dropbox/archive/2019/personal/software/name/recoll/hapax-legomenon-for-each-mimetype/out/hapax_list.txt]	[hapax_list.txt]	2971	bytes
 
 
-  This shows that ``recoll`` does have the unique word in its index,
+  This shows that ``recoll`` does have the unique word in its index
+  because for the ``hapax_list.txt`` file,
   but it has not indexed the ``.java`` file.
+  This way we can more easily distinguish between
+  before and after indexing.
 
 - Edit Recoll config files.
 
