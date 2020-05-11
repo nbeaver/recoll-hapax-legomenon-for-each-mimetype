@@ -5,10 +5,8 @@
 - [ ] .toml file
 - [ ] docbook XML, application/x-docbook+xml (.dbk, .xml)
 - [ ] .diff / .patch files
-- [ ] .vcf (text/vcard)
 - [ ] .pdf
 - [ ] .mbox (application/mbox)
-- [ ] .list (text/x-apt-sources-list)
 
 Maybe
 -----
