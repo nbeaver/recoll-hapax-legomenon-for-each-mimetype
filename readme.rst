@@ -4,15 +4,14 @@ How to add a new mimetype:
 
   Example::
 
-      $ xdg-mime query filetype HelloWorld.java 
+      $ xdg-mime query filetype HelloWorld.java
       text/x-java
 
-- Edit ``generate-files.sh`` to make a new example file.
+- Add a new example file in ``templates/``
+  that contains the ``${unique_word}`` string.
 
   Example::
 
-      unique_word=$(get_unique_word)
-      cat << EOF > ${out_dir}/${base_filename}.java
       public class HelloWorld
       {
       	public static void main(String[] args)
@@ -21,24 +20,40 @@ How to add a new mimetype:
       		System.out.println();
       	}
       }
-      EOF
-      printf "${unique_word}\n" >> ${hapax_list}
+
+- Generate the output files.
+
+  Run ``make generate-files`` or do it manually::
+
+      python3 generate_files.py --debug templates/ out/
 
 - Check that the output is a valid example.
 
   Example::
 
-      $ cat out/hapax_legomenon.java 
+      $ cat out/hapax_legomenon.java
       public class HelloWorld
       {
               public static void main(String[] args)
               {
-                      System.out.print("cahutecdekciefdiodjofubrajwenn");
+                      System.out.print("vlgnevkwbowbsxqdpbsbpkpoxxwntp");
                       System.out.println();
               }
       }
+      $ xdg-mime query filetype out/hapax_legomenon.java
+      text/x-java
 
 - Run ``make`` and observe there is only 1 match for the example.
+
+  ::
+
+      Recoll query: Query((hapax_legomenon.java AND vlgnevkwbowbsxqdpbsbpkpoxxwntp))
+      1 results
+      text/plain	[file:///home/nathaniel/Dropbox/archive/2019/personal/software/name/recoll/hapax-legomenon-for-each-mimetype/out/hapax_list.txt]	[hapax_list.txt]	2971	bytes
+
+
+  This shows that ``recoll`` does have the unique word in its index,
+  but it has not indexed the ``.java`` file.
 
 - Edit Recoll config files.
 
@@ -83,10 +98,15 @@ How to add a new mimetype:
   see ``/usr/share/recoll/examples/mimeconf``.
 
   For files that don't have a consistent file extension,
-  such as man pages,
-  
-  .. TODO: finish this
+  such as man pages, we rely on ``xdg-mime`` to find.
 
 - Run ``make`` and observe there are now 2 matches.
+
+  ::
+
+      Recoll query: Query((hapax_legomenon.java AND vlgnevkwbowbsxqdpbsbpkpoxxwntp))
+      2 results
+      text/x-java	[file:///home/nathaniel/Dropbox/archive/2019/personal/software/name/recoll/hapax-legomenon-for-each-mimetype/out/hapax_legomenon.java]	[hapax_legomenon.java]	152	bytes
+      text/plain	[file:///home/nathaniel/Dropbox/archive/2019/personal/software/name/recoll/hapax-legomenon-for-each-mimetype/out/hapax_list.txt]	[hapax_list.txt]	2971	bytes
 
   (If there isn't debug until there is.)
