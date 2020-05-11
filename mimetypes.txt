@@ -1,10 +1,12 @@
 application/javascript
 application/json
+application/msword
 application/postscript
 application/rtf
 application/sql
 application/vnd.oasis.opendocument.text
 application/vnd.oasis.opendocument.text-flat-xml
+application/vnd.openxmlformats-officedocument.wordprocessingml.document
 application/vnd.wolfram.nb
 application/x-awk
 application/x-desktop

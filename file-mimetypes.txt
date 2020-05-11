@@ -59,6 +59,8 @@ out/hapax_legomenon.yaml	application/x-yaml
 out/hapax_legomenon.yml	application/x-yaml
 out/hapax_list.txt	text/plain
 out/manual_mappings.tsv	text/tab-separated-values
+out/manual_unique_string.doc	application/msword
+out/manual_unique_string.docx	application/vnd.openxmlformats-officedocument.wordprocessingml.document
 out/manual_unique_string.fodt	application/vnd.oasis.opendocument.text-flat-xml
 out/manual_unique_string.odt	application/vnd.oasis.opendocument.text
 out/sources.list	text/x-apt-sources-list
