@@ -1,6 +1,6 @@
 TEMPLATES:=templates
 TOP_DIR:=out
-TIMESTAMP=$(shell date +%s)
+TIMESTAMP:=$(shell date +%F_%s)
 
 .PHONY: regenerate
 regnenerate :
