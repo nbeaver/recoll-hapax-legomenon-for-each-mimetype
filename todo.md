@@ -7,6 +7,7 @@
 - [ ] .diff / .patch files
 - [ ] .pdf
 - [ ] .mbox (application/mbox)
+- [ ] .svg file (image/svg+xml)
 
 Maybe
 -----
