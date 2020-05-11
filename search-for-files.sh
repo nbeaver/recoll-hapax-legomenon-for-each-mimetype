@@ -5,7 +5,8 @@ then
 fi
 for filepath in "$@"
 do
-    while read line; do
+    while read line
+    do
         recoll -t "${line}"
     done < ${filepath}
 done
