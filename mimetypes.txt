@@ -2,6 +2,7 @@ application/epub+zip
 application/javascript
 application/json
 application/msword
+application/pdf
 application/postscript
 application/rtf
 application/sql

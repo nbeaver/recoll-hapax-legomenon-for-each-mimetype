@@ -68,4 +68,5 @@ out/manual_unique_string.dvi	application/x-dvi
 out/manual_unique_string.epub	application/epub+zip
 out/manual_unique_string.fodt	application/vnd.oasis.opendocument.text-flat-xml
 out/manual_unique_string.odt	application/vnd.oasis.opendocument.text
+out/manual_unique_string.pdf	application/pdf
 out/sources.list	text/x-apt-sources-list

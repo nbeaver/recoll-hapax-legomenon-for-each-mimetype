@@ -1,10 +1,8 @@
 - [ ] .srt subtitle files (text/x-srt)
-- [ ] .djvu files
 - [ ] .ly files (lilypond)
 - [ ] .mobi files
 - [ ] .toml file
 - [ ] .diff / .patch files
-- [ ] .pdf
 - [ ] .mbox (application/mbox)
 
 Maybe
