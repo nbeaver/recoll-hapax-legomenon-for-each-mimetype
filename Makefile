@@ -8,7 +8,7 @@ regnenerate :
 	find $(TOP_DIR)/ -print | recollindex -e -i
 	./get-file-mimetypes.sh out/* > file-mimetypes.txt
 	./get-mimetypes.sh out/* | sort | uniq > mimetypes.txt
-	./search-for-files.sh out/hapax_list.txt | less
+	./search-for-files.sh out/hapax_list.txt out/manual_mappings.tsv | less
 
 .PHONY: generate-files
 generate-files :
@@ -36,11 +36,11 @@ index :
 
 .PHONY: search
 search :
-	./search-for-files.sh out/hapax_list.txt
+	./search-for-files.sh out/hapax_list.txt out/manual_mappings.tsv
 
 .PHONY: search-quiet
 search-quiet :
-	-./search-for-files.sh out/hapax_list.txt | grep 'results' | grep -xv '2 results'
+	-./search-for-files.sh out/hapax_list.txt out/manual_mappings.tsv | grep 'results' | grep -xv '2 results'
 
 .PHONY: show-files
 show-files :

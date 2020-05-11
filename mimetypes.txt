@@ -3,6 +3,8 @@ application/json
 application/postscript
 application/rtf
 application/sql
+application/vnd.oasis.opendocument.text
+application/vnd.oasis.opendocument.text-flat-xml
 application/vnd.wolfram.nb
 application/x-awk
 application/x-desktop
