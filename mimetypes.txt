@@ -27,6 +27,7 @@ text/rust
 text/tab-separated-values
 text/vcard
 text/vtt
+text/x-apt-sources-list
 text/x-authors
 text/x-bibtex
 text/x-changelog

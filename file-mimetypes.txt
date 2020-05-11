@@ -58,3 +58,4 @@ out/hapax_legomenon.vtt	text/vtt
 out/hapax_legomenon.yaml	application/x-yaml
 out/hapax_legomenon.yml	application/x-yaml
 out/hapax_list.txt	text/plain
+out/sources.list	text/x-apt-sources-list
