@@ -9,7 +9,7 @@ regnenerate :
 	find $(TOP_DIR)/ -print | recollindex -e -i
 	./get-file-mimetypes.sh out/* > file-mimetypes.txt
 	./get-mimetypes.sh out/* | sort | uniq > mimetypes.txt
-	./search_for_unique_strings.py out/hapax_list.txt out/manual_mappings.tsv | less
+	./search_for_unique_strings.py out/hapax_list.txt out/manual_mappings.txt | less
 
 .PHONY: generate-files
 generate-files :
@@ -37,11 +37,11 @@ index :
 
 .PHONY: search
 search :
-	./search_for_unique_strings.py out/hapax_list.txt out/manual_mappings.tsv
+	./search_for_unique_strings.py out/hapax_list.txt out/manual_mappings.txt
 
 .PHONY: search-quiet
 search-quiet :
-	-./search_for_unique_strings.py out/hapax_list.txt out/manual_mappings.tsv | grep 'results' | grep -xv '2 results'
+	-./search_for_unique_strings.py out/hapax_list.txt out/manual_mappings.txt | grep 'results' | grep -xv '2 results'
 
 .PHONY: show-files
 show-files :
