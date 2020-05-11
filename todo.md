@@ -1,6 +1,5 @@
 - [ ] .srt subtitle files (text/x-srt)
-- [ ] .dvi files
-- [ ] .epub files
+- [ ] .djvu files
 - [ ] .ly files (lilypond)
 - [ ] .mobi files
 - [ ] .toml file
