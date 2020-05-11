@@ -13,6 +13,7 @@ out/hapax_legomenon.c	text/x-csrc
 out/hapax_legomenon.conf	text/plain
 out/hapax_legomenon.css	text/css
 out/hapax_legomenon.csv	text/csv
+out/hapax_legomenon.dbk	application/x-docbook+xml
 out/hapax_legomenon.desktop	application/x-desktop
 out/hapax_legomenon.eml	message/rfc822
 out/hapax_legomenon.f90	text/x-fortran
@@ -55,10 +56,12 @@ out/hapax_legomenon.txt	text/plain
 out/hapax_legomenon.vb	application/x-virtual-boy-rom
 out/hapax_legomenon.vcf	text/vcard
 out/hapax_legomenon.vtt	text/vtt
+out/hapax_legomenon.xml	text/html
 out/hapax_legomenon.yaml	application/x-yaml
 out/hapax_legomenon.yml	application/x-yaml
 out/hapax_list.txt	text/plain
 out/manual_mappings.txt	text/plain
+out/manual_unique_string.djvu	image/vnd.djvu+multipage
 out/manual_unique_string.doc	application/msword
 out/manual_unique_string.docx	application/vnd.openxmlformats-officedocument.wordprocessingml.document
 out/manual_unique_string.dvi	application/x-dvi

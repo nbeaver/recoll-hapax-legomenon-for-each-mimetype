@@ -11,6 +11,7 @@ application/vnd.openxmlformats-officedocument.wordprocessingml.document
 application/vnd.wolfram.nb
 application/x-awk
 application/x-desktop
+application/x-docbook+xml
 application/x-dvi
 application/x-gnuinfo
 application/x-gnuplot
@@ -22,6 +23,7 @@ application/x-shellscript
 application/x-troff-man
 application/x-virtual-boy-rom
 application/x-yaml
+image/vnd.djvu+multipage
 message/rfc822
 text/calendar
 text/css
