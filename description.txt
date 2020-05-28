@@ -1,0 +1,1 @@
+Check recollindex by generating unique words and searching for them.
