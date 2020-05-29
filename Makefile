@@ -51,5 +51,3 @@ show-files :
 
 clean :
 	rm -f -- $(TOP_DIR)/*
-	recollindex -r $(TOP_DIR)
-	recollindex -r $(MANUAL_DIR)
