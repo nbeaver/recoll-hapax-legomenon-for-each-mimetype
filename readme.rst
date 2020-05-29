@@ -1,4 +1,8 @@
-How to add a new mimetype:
+Checking recollindex with randomly generated hapax legomenon
+============================================================
+
+Adding a new mimetype
+---------------------
 
 - Determine the mimetype with ``xdg-mime query filetype example.myfile``.
 
@@ -113,3 +117,10 @@ How to add a new mimetype:
       text/plain	[file:///home/nathaniel/Dropbox/archive/2019/personal/software/name/recoll/hapax-legomenon-for-each-mimetype/out/hapax_list.txt]	[hapax_list.txt]	2971	bytes
 
   (If there isn't debug until there is.)
+
+Debugging
+---------
+
+- Symptom: Recoll query gives 0 results
+
+  Check current directory is in ``topdirs`` in ``~/.recoll/recoll.conf``.
