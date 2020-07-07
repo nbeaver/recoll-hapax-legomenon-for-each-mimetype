@@ -2,7 +2,7 @@
 - [ ] .ly files (lilypond)
 - [ ] .mobi files
 - [ ] .toml file
-- [ ] .diff / .patch files
+- [x] .diff / .patch files
 - [ ] .mbox (application/mbox)
 
 Maybe
