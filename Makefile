@@ -4,7 +4,7 @@ MANUAL_DIR:=manually-generated
 TIMESTAMP:=$(shell date +%F_%s)
 
 .PHONY: regenerate
-regnenerate :
+regenerate :
 	./generate_files.py $(TEMPLATES)/ $(TOP_DIR)/
 	touch $(MANUAL_DIR)/*
 	find $(TOP_DIR)/ -print | recollindex -e -i
