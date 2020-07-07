@@ -1,0 +1,10 @@
+--- original
++++ modified
+@@ -1,6 +1,6 @@
+ #include <stdio.h>
+ /* ${unique_word} */
+ int main(int argc, char *argv[]) {
+-        printf("hello, world\n");
++        printf("Goodbye for now!\n");
+ 	return 0;
+ }
