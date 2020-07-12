@@ -1,4 +1,4 @@
-- [ ] .srt subtitle files (text/x-srt)
+- [x] .srt subtitle files (text/x-srt)
 - [ ] .ly files (lilypond)
 - [ ] .mobi files
 - [ ] .toml file
