@@ -48,6 +48,7 @@ out/hapax_legomenon.rtf	application/rtf
 out/hapax_legomenon.scad	application/x-openscad
 out/hapax_legomenon.sh	application/x-shellscript
 out/hapax_legomenon.sql	application/sql
+out/hapax_legomenon.srt	application/x-subrip
 out/hapax_legomenon.ss	text/x-scheme
 out/hapax_legomenon.tcl	text/x-tcl
 out/hapax_legomenon.tex	text/x-tex
