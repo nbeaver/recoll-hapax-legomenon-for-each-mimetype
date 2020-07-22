@@ -25,6 +25,7 @@ application/x-subrip
 application/x-troff-man
 application/x-virtual-boy-rom
 application/x-yaml
+chemical/x-cif
 image/vnd.djvu+multipage
 message/rfc822
 text/calendar

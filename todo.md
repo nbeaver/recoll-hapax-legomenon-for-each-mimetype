@@ -4,6 +4,7 @@
 - [ ] .toml file
 - [x] .diff / .patch files
 - [ ] .mbox (application/mbox)
+- [ ] .cif (chemical/x-cif)
 
 Maybe
 -----
