@@ -11,7 +11,7 @@ regenerate :
 	find $(MANUAL_DIR)/ -print | recollindex -e -i
 	./get-file-mimetypes.sh $(TOP_DIR)/* $(MANUAL_DIR)/* > file-mimetypes.txt
 	./get-mimetypes.sh $(TOP_DIR)/* $(MANUAL_DIR)/* | sort | uniq > mimetypes.txt
-	./search_for_unique_strings.py $(TOP_DIR)/hapax_list.txt $(MANUAL_DIR)/manual_mappings.txt | less
+	./search_for_unique_strings.py $(TOP_DIR)/hapax_list.txt $(MANUAL_DIR)/manual_mappings.txt 2>&1 | less
 
 .PHONY: generate-files
 generate-files :
