@@ -45,6 +45,7 @@ text/x-changelog
 text/x-chdr
 text/x-copying
 text/x-csrc
+text/x-c++src
 text/x-fortran
 text/x-haskell
 text/x-install

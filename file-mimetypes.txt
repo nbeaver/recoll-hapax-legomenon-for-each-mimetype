@@ -12,6 +12,7 @@ out/hapax_legomenon.bibtex	text/plain
 out/hapax_legomenon.c	text/x-csrc
 out/hapax_legomenon.cif	chemical/x-cif
 out/hapax_legomenon.conf	text/plain
+out/hapax_legomenon.cpp	text/x-c++src
 out/hapax_legomenon.css	text/css
 out/hapax_legomenon.csv	text/csv
 out/hapax_legomenon.dbk	application/x-docbook+xml
