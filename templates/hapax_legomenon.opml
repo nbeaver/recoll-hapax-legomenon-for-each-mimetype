@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<opml version="1.0">
+<head>
+	<title>Example OPML file</title>
+		<!-- Example comment -->
+</head>
+<body>
+	<outline text="Example outline">
+		<outline text="${unique_word}">
+			<outline text="Example RSS feed" htmlUrl="https://feedforall.com/sample.xml" xmlUrl="https://feedforall.com/sample.xml"/>
+		</outline>
+</body>
+</opml>

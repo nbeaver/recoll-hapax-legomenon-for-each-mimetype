@@ -39,6 +39,7 @@ out/hapax_legomenon.markdown	text/markdown
 out/hapax_legomenon.md	text/markdown
 out/hapax_legomenon.mdown	text/plain
 out/hapax_legomenon.nb	application/vnd.wolfram.nb
+out/hapax_legomenon.opml	text/x-opml+xml
 out/hapax_legomenon.patch	text/x-patch
 out/hapax_legomenon.pl	application/x-perl
 out/hapax_legomenon.ps	application/postscript
