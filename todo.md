@@ -13,3 +13,4 @@ Maybe
 - [ ] text/troff files (e.g. ~/.local/share/man/man1/youtube-dl.1 )
 - [ ] .1.gz files (man pages) (application/gzip vs. text/troff)
 - [ ] .ipynb files, application/x-ipynb+json a.k.a. IPython notebook files (or just export HTML/PDF?)
+- [ ] .mhtml files
