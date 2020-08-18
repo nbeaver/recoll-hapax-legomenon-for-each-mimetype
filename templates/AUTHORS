@@ -1,1 +1,3 @@
-${unique_word}
+The authors are:
+${unique_word} <contact@example.com>
+Firstname Lastname <firstname.lastname@example.com>
