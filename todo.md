@@ -1,3 +1,10 @@
+Output
+------
+- [ ] Add HTML report to output options
+
+Mimetypes to add
+----------------
+
 - [x] .srt subtitle files (text/x-srt)
 - [ ] .ly files (lilypond)
 - [ ] .mobi files
@@ -7,8 +14,8 @@
 - [x] .cif (chemical/x-cif)
 - [x] .svg file (image/svg+xml)
 
-Maybe
------
+Mimetypes to add (maybe)
+------------------------
 
 - [ ] text/troff files (e.g. ~/.local/share/man/man1/youtube-dl.1 )
 - [ ] .1.gz files (man pages) (application/gzip vs. text/troff)
