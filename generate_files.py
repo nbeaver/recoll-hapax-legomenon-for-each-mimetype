@@ -59,7 +59,7 @@ def write_files(template_dir, output_dir):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
-        description='Generate example files templates.'
+        description='Generate example files from given templates.'
     )
     parser.add_argument(
         'templates',
