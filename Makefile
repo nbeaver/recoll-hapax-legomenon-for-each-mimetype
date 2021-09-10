@@ -35,7 +35,7 @@ file-mimetypes.txt :
 
 .PHONY: index
 index :
-	./print_filepaths.py $(TOP_DIR)/ -print | recollindex -e -i
+	./print_filepaths.py $(TOP_DIR)/ | recollindex -e -i
 
 .PHONY: search
 search :
