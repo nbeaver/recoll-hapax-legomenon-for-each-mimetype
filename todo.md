@@ -13,6 +13,12 @@ Mimetypes to add
 - [ ] .mbox (application/mbox)
 - [x] .cif (chemical/x-cif)
 - [x] .svg file (image/svg+xml)
+- [x] .ris file (application/x-research-info-systems)
+- [ ] .conf file
+- [ ] .cfg file
+- [x] .dic file
+- [ ] .description file
+- [x] .vim file
 
 Mimetypes to add (maybe)
 ------------------------

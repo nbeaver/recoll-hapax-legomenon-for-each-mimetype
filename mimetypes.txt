@@ -17,7 +17,6 @@ application/x-dvi
 application/x-gnuinfo
 application/x-gnuplot
 application/x-lyx
-application/x-openscad
 application/x-perl
 application/x-ruby
 application/x-shellscript
