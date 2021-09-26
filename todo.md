@@ -6,7 +6,7 @@ Mimetypes to add
 ----------------
 
 - [x] .srt subtitle files (text/x-srt)
-- [ ] .ly files (lilypond)
+- [x] .ly files (lilypond)
 - [ ] .mobi files
 - [ ] .toml file
 - [x] .diff / .patch files
@@ -17,7 +17,7 @@ Mimetypes to add
 - [ ] .conf file
 - [ ] .cfg file
 - [x] .dic file
-- [ ] .description file
+- [x] .description file
 - [x] .vim file
 
 Mimetypes to add (maybe)
@@ -25,5 +25,5 @@ Mimetypes to add (maybe)
 
 - [ ] text/troff files (e.g. ~/.local/share/man/man1/youtube-dl.1 )
 - [ ] .1.gz files (man pages) (application/gzip vs. text/troff)
-- [ ] .ipynb files, application/x-ipynb+json a.k.a. IPython notebook files (or just export HTML/PDF?)
+- [x] .ipynb files, application/x-ipynb+json a.k.a. IPython notebook files (or just export HTML/PDF?)
 - [ ] .mhtml files
