@@ -27,3 +27,4 @@ Mimetypes to add (maybe)
 - [ ] .1.gz files (man pages) (application/gzip vs. text/troff)
 - [x] .ipynb files, application/x-ipynb+json a.k.a. IPython notebook files (or just export HTML/PDF?)
 - [ ] .mhtml files
+- [ ] .xps files
