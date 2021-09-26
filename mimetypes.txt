@@ -16,6 +16,7 @@ application/x-docbook+xml
 application/x-dvi
 application/x-gnuinfo
 application/x-gnuplot
+application/x-ipynb+json
 application/x-lyx
 application/x-perl
 application/x-ruby
@@ -50,6 +51,7 @@ text/x-fortran
 text/x-haskell
 text/x-install
 text/x-java
+text/x-lilypond
 text/x-log
 text/x-lua
 text/x-makefile
