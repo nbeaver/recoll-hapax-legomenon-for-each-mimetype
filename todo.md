@@ -1,5 +1,6 @@
 Output
 ------
+
 - [ ] Add HTML report to output options
 
 Mimetypes to add
