@@ -15,7 +15,7 @@ Mimetypes to add
 - [x] .cif (chemical/x-cif)
 - [x] .svg file (image/svg+xml)
 - [x] .ris file (application/x-research-info-systems)
-- [ ] .conf file
+- [x] .conf file
 - [ ] .cfg file
 - [x] .dic file
 - [x] .description file
