@@ -20,6 +20,7 @@ Mimetypes to add
 - [x] .dic file
 - [x] .description file
 - [x] .vim file
+- [x] .reg file
 
 Mimetypes to add (maybe)
 ------------------------

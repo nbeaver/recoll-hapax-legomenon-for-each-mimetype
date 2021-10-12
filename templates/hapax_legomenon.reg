@@ -1,0 +1,15 @@
+REGEDIT4
+
+; Example registry edit file.
+; ${unique_word}
+
+[HKEY_CLASSES_ROOT\foo]
+@="URL:foo Protocol"
+"URL Protocol"=""
+
+[HKEY_CLASSES_ROOT\foo\shell]
+
+[HKEY_CLASSES_ROOT\foo\shell\open]
+
+[HKEY_CLASSES_ROOT\foo\shell\open\command]
+@="\"C:\\Program Files\\Application\\program.exe\" \"%1\"" 

@@ -56,6 +56,7 @@ text/x-log
 text/x-lua
 text/x-makefile
 text/x-matlab
+text/x-ms-regedit
 text/x-opml+xml
 text/x-patch
 text/x-python

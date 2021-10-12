@@ -55,6 +55,7 @@ out/hapax_legomenon.pl	application/x-perl
 out/hapax_legomenon.ps	application/postscript
 out/hapax_legomenon.py	text/x-python
 out/hapax_legomenon.rb	application/x-ruby
+out/hapax_legomenon.reg	text/x-ms-regedit
 out/hapax_legomenon.ris	text/plain
 out/hapax_legomenon.rs	text/rust
 out/hapax_legomenon.rst	text/x-rst
