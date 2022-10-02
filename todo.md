@@ -21,6 +21,7 @@ Mimetypes to add
 - [x] .description file
 - [x] .vim file
 - [x] .reg file
+- [ ] .editorconfig files
 
 Mimetypes to add (maybe)
 ------------------------
