@@ -25,6 +25,7 @@ application/x-subrip
 application/x-troff-man
 application/x-virtual-boy-rom
 application/x-yaml
+application/x-zim-notebook
 chemical/x-cif
 image/svg+xml
 image/vnd.djvu+multipage
