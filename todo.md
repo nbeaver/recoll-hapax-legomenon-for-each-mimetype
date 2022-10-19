@@ -22,6 +22,7 @@ Mimetypes to add
 - [x] .vim file
 - [x] .reg file
 - [ ] .editorconfig files
+- [x] .m3u files
 
 Mimetypes to add (maybe)
 ------------------------
