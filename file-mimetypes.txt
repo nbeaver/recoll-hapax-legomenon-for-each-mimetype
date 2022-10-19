@@ -7,8 +7,10 @@ out/LICENSE	text/plain
 out/Makefile	text/x-makefile
 out/README	text/x-readme
 out/hapax_legomenon.1.html	text/html
+out/hapax_legomenon.1.m3u	audio/x-mpegurl
 out/hapax_legomenon.1.svg	image/svg+xml
 out/hapax_legomenon.2.html	text/html
+out/hapax_legomenon.2.m3u	audio/x-mpegurl
 out/hapax_legomenon.2.svg	image/svg+xml
 out/hapax_legomenon.3.html	text/html
 out/hapax_legomenon.awk	application/x-awk

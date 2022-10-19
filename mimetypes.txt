@@ -26,6 +26,7 @@ application/x-troff-man
 application/x-virtual-boy-rom
 application/x-yaml
 application/x-zim-notebook
+audio/x-mpegurl
 chemical/x-cif
 image/svg+xml
 image/vnd.djvu+multipage
