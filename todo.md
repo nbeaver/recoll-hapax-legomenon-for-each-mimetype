@@ -23,10 +23,14 @@ Mimetypes to add
 - [x] .reg file
 - [ ] .editorconfig files
 - [x] .m3u files
+- [ ] .sed file
+- [ ] .asy file
+- [ ] .rdp file
 
 Mimetypes to add (maybe)
 ------------------------
 
+- [ ] Musescore files (.mscz, .mscx)
 - [ ] text/troff files (e.g. ~/.local/share/man/man1/youtube-dl.1 )
 - [ ] .1.gz files (man pages) (application/gzip vs. text/troff)
 - [x] .ipynb files, application/x-ipynb+json a.k.a. IPython notebook files (or just export HTML/PDF?)
