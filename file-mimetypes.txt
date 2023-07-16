@@ -13,6 +13,7 @@ out/hapax_legomenon.2.html	text/html
 out/hapax_legomenon.2.m3u	audio/x-mpegurl
 out/hapax_legomenon.2.svg	image/svg+xml
 out/hapax_legomenon.3.html	text/html
+out/hapax_legomenon.asy	text/plain
 out/hapax_legomenon.awk	application/x-awk
 out/hapax_legomenon.bat	text/plain
 out/hapax_legomenon.bib	text/x-bibtex
