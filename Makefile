@@ -13,6 +13,10 @@ regenerate :
 	./get-mimetypes.sh $(TOP_DIR)/* $(MANUAL_DIR)/* | sort | uniq > mimetypes.txt
 	./search_for_unique_strings.py $(TOP_DIR)/hapax_list.txt $(MANUAL_DIR)/manual_mappings.txt 2>&1 | less
 
+# recollindex -i will index individual files into the database
+# recollindex -e will erase data for individual files from the database.
+# Options -i and -e can be combined. This will first perform the purge, then the indexing.
+
 .PHONY: generate-files
 generate-files :
 	./generate_files.py $(TEMPLATES)/ $(TOP_DIR)/
