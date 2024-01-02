@@ -1,31 +1,34 @@
 Output
 ------
 
+- [ ] Make this work for hidden files like .gitattributes, .gitconfig, .gitignore
 - [ ] Add HTML report to output options
 
 Mimetypes to add
 ----------------
 
-- [x] .srt subtitle files (text/x-srt)
-- [x] .ly files (lilypond)
-- [ ] .mobi files
-- [ ] .toml file
-- [x] .diff / .patch files
-- [ ] .mbox (application/mbox)
-- [x] .cif (chemical/x-cif)
-- [x] .svg file (image/svg+xml)
-- [x] .ris file (application/x-research-info-systems)
-- [x] .conf file
-- [ ] .cfg file
-- [x] .dic file
-- [x] .description file
-- [x] .vim file
-- [x] .reg file
-- [ ] .editorconfig files
-- [x] .m3u files
-- [ ] .sed file
+- [ ] .cue file (application/x-cue)
 - [ ] .asy file
+- [ ] .cfg file
+- [ ] .editorconfig files
+- [ ] .grmt files (map to application/xml)
+- [ ] .mbox (application/mbox)
+- [ ] .mobi files
 - [ ] .rdp file
+- [ ] .sed file
+- [ ] .toml file
+- [x] .cif (chemical/x-cif)
+- [x] .conf file
+- [x] .description file
+- [x] .dic file
+- [x] .diff / .patch files
+- [x] .ly files (lilypond)
+- [x] .m3u files
+- [x] .reg file
+- [x] .ris file (application/x-research-info-systems)
+- [x] .srt subtitle files (text/x-srt)
+- [x] .svg file (image/svg+xml)
+- [x] .vim file
 
 Mimetypes to add (maybe)
 ------------------------
