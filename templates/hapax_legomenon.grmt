@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gourmetDoc>
+<gourmetDoc>
+	<recipe id="77">
+		<title>French toast</title>
+		<source>Adapted from Better Homes and Gardens Cookbook</source>
+		<link>https://www.bhg.com/recipe/classic-homemade-french-toast/</link>
+		<preptime>10 minutes</preptime>
+		<cooktime>32 minutes</cooktime>
+		<yields>4 servings</yields>
+		<ingredient-list>
+			<ingredient>
+				<amount>3</amount>
+				<item>eggs, lightly beaten</item>
+				<key>eggs, lightly beaten</key>
+			</ingredient>
+			<ingredient>
+				<amount>1/2</amount>
+				<unit>cup</unit>
+				<item>milk</item>
+				<key>milk</key>
+			</ingredient>
+			<ingredient>
+				<amount>2</amount>
+				<unit>tablespoons</unit>
+				<item>sugar</item>
+				<key>sugar</key>
+			</ingredient>
+			<ingredient>
+				<amount>2</amount>
+				<unit>teaspoons</unit>
+				<item>vanilla</item>
+				<key>vanilla</key>
+			</ingredient>
+			<ingredient optional="yes">
+				<amount>1/2</amount>
+				<unit>teaspoon</unit>
+				<item>finely shredded orange peel</item>
+				<key>finely shredded orange peel</key>
+			</ingredient>
+			<ingredient optional="yes">
+				<amount>1/2</amount>
+				<unit>teaspoon</unit>
+				<item>ground cinnamon</item>
+				<key>ground cinnamon</key>
+			</ingredient>
+			<ingredient optional="yes">
+				<amount>1/4</amount>
+				<unit>teaspoon</unit>
+				<item>ground nutmeg</item>
+				<key>ground nutmeg</key>
+			</ingredient>
+			<ingredient>
+				<amount>8</amount>
+				<unit>slices</unit>
+				<item>bread</item>
+				<key>bread</key>
+			</ingredient>
+			<ingredient>
+				<amount>2</amount>
+				<unit>tablespoons</unit>
+				<item>butter</item>
+				<key>butter</key>
+			</ingredient>
+			<ingredient optional="yes">
+				<item>maple syrup to taste</item>
+				<key>maple syrup to taste</key>
+			</ingredient>
+		</ingredient-list>
+		<instructions>1. In a shallow bowl whisk together first seven ingredients (eggs through nutmeg).
+
+${unique_word}
+
+2. In a skillet or on a griddle melt 1 Tbsp. of the butter over medium heat.
+
+3. Dip one of the bread slices into egg mixture, turning to coat with a fork. Let soak in egg mixture about 10-15 seconds per side.
+
+4. Add one or more egg-soaked bread slices to the pre-heated pan; cook 2 to 3 minutes on each side or until golden. Remove from skillet.
+
+5. Repeat with remaining butter and bread slices.
+
+6. Serve warm. If desired, serve with syrup or other toppings.</instructions>
+		<modifications>The soak time will vary by the kind of bread, but do not oversoak the bread in the egg mixture, or it will become soggy.
+
+Example toppings: almond butter, apricot preserves, plain greek yogurt, fresh blueberries.</modifications>
+	</recipe>
+</gourmetDoc>
