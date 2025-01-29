@@ -13,6 +13,8 @@ out/hapax_legomenon.2.html	text/html
 out/hapax_legomenon.2.m3u	audio/x-mpegurl
 out/hapax_legomenon.2.svg	image/svg+xml
 out/hapax_legomenon.3.html	text/html
+out/hapax_legomenon.adoc	text/plain
+out/hapax_legomenon.asciidoc	text/plain
 out/hapax_legomenon.asy	text/plain
 out/hapax_legomenon.awk	application/x-awk
 out/hapax_legomenon.bat	text/plain
@@ -25,14 +27,17 @@ out/hapax_legomenon.conf	text/plain
 out/hapax_legomenon.cpp	text/x-c++src
 out/hapax_legomenon.css	text/css
 out/hapax_legomenon.csv	text/csv
+out/hapax_legomenon.cue	application/x-cue
 out/hapax_legomenon.dbk	application/x-docbook+xml
 out/hapax_legomenon.description	text/plain
 out/hapax_legomenon.desktop	application/x-desktop
 out/hapax_legomenon.dic	text/plain
 out/hapax_legomenon.diff	text/x-patch
 out/hapax_legomenon.eml	message/rfc822
+out/hapax_legomenon.en.utf-8.add	text/plain
 out/hapax_legomenon.f90	text/x-fortran
 out/hapax_legomenon.gnuplot	application/x-gnuplot
+out/hapax_legomenon.go	text/x-go
 out/hapax_legomenon.grmt	application/xml
 out/hapax_legomenon.h	text/x-chdr
 out/hapax_legomenon.hs	text/x-haskell
@@ -52,6 +57,7 @@ out/hapax_legomenon.man	application/x-troff-man
 out/hapax_legomenon.markdown	text/markdown
 out/hapax_legomenon.md	text/markdown
 out/hapax_legomenon.mdown	text/plain
+out/hapax_legomenon.mx3	text/plain
 out/hapax_legomenon.nb	application/mathematica
 out/hapax_legomenon.opml	text/x-opml+xml
 out/hapax_legomenon.patch	text/x-patch

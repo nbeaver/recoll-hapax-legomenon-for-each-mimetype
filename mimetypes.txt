@@ -11,6 +11,7 @@ application/vnd.oasis.opendocument.text
 application/vnd.oasis.opendocument.text-flat-xml
 application/vnd.openxmlformats-officedocument.wordprocessingml.document
 application/x-awk
+application/x-cue
 application/x-desktop
 application/x-docbook+xml
 application/x-dvi
@@ -49,6 +50,7 @@ text/x-chdr
 text/x-copying
 text/x-csrc
 text/x-fortran
+text/x-go
 text/x-haskell
 text/x-install
 text/x-java

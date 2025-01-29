@@ -1,0 +1,10 @@
+= An example AsciiDoc document
+
+*${unique_word}*
+
+<https://example.org>
+
+[,ruby]
+----
+puts 'Hello, World!'
+----
