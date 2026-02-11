@@ -22,6 +22,7 @@ Mimetypes to add
 - [ ] .mbox (application/mbox)
 - [ ] .mobi files
 - [ ] .pov file (POV-Ray)
+- [ ] .opf file (Open eBook, e.g. metadata.opf)
 - [ ] .ps1 file (PowerScript)
 - [ ] .service file (systemd)
 - [ ] .vbe file
