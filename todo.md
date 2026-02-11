@@ -21,8 +21,8 @@ Mimetypes to add
 - [ ] .log files
 - [ ] .mbox (application/mbox)
 - [ ] .mobi files
-- [ ] .pov file (POV-Ray)
 - [ ] .opf file (Open eBook, e.g. metadata.opf)
+- [ ] .pov file (POV-Ray)
 - [ ] .ps1 file (PowerScript)
 - [ ] .service file (systemd)
 - [ ] .vbe file
@@ -54,9 +54,9 @@ Mimetypes to add
 Mimetypes to add (maybe)
 ------------------------
 
-- [ ] Musescore files (.mscz, .mscx)
-- [ ] text/troff files (e.g. ~/.local/share/man/man1/youtube-dl.1 )
 - [ ] .1.gz files (man pages) (application/gzip vs. text/troff)
-- [x] .ipynb files, application/x-ipynb+json a.k.a. IPython notebook files (or just export HTML/PDF?)
 - [ ] .mhtml files
+- [ ] .mscz, .mscx files (Musescore)
 - [ ] .xps files
+- [ ] text/troff files (e.g. ~/.local/share/man/man1/youtube-dl.1 )
+- [x] .ipynb files, application/x-ipynb+json a.k.a. IPython notebook files (or just export HTML/PDF?)
