@@ -56,7 +56,8 @@ Mimetypes to add (maybe)
 
 - [ ] .1.gz files (man pages) (application/gzip vs. text/troff)
 - [ ] .mhtml files
-- [ ] .mscz, .mscx files (Musescore)
+- [ ] .mscx file (uncompressed Musescore)
+- [ ] .mscz file (compressed Musescore)
 - [ ] .xps files
 - [ ] text/troff files (e.g. ~/.local/share/man/man1/youtube-dl.1 )
 - [x] .ipynb files, application/x-ipynb+json a.k.a. IPython notebook files (or just export HTML/PDF?)
