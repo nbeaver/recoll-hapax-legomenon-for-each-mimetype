@@ -42,19 +42,23 @@ def write_files(template_dir, output_dir):
     # so we must sort them.
     for template_path in sorted(glob.glob(template_dir + '/*')):
         logging.info("attempting to read template file '{}'".format(template_path))
-        with open(template_path) as template_fp:
-            template_str = template_fp.read()
-        template = string.Template(template_str)
-        unique_str = unique_string()
-        filename = os.path.basename(template_path)
-        hapax_list_fp.write(filename + '\t' + unique_str + '\n')
-        payload = template.substitute(unique_word=unique_str)
-        if payload == template_str:
-            raise ValueError("template file not changed: '{}'".format(template_path))
-        out_path = os.path.join(output_dir, filename)
-        with open(out_path, 'w') as out_fp:
-            logging.info("writing to file '{}'".format(out_path))
-            out_fp.write(payload)
+        try:
+            with open(template_path) as template_fp:
+                template_str = template_fp.read()
+            template = string.Template(template_str)
+            unique_str = unique_string()
+            filename = os.path.basename(template_path)
+            hapax_list_fp.write(filename + '\t' + unique_str + '\n')
+            payload = template.substitute(unique_word=unique_str)
+            if payload == template_str:
+                raise ValueError("template file not changed: '{}'".format(template_path))
+            out_path = os.path.join(output_dir, filename)
+            with open(out_path, 'w') as out_fp:
+                logging.info("writing to file '{}'".format(out_path))
+                out_fp.write(payload)
+        except:
+            logging.error("template file: '{}'".format(template_path))
+            raise
     hapax_list_fp.close()
 
 if __name__ == '__main__':
