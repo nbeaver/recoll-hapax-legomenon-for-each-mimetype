@@ -1,3 +1,4 @@
-real ${unique_word};
-${unique_word} = 1.0;
-write(${unique_word});
+settings.outformat = "pdf";
+defaultpen(fontsize(10pt));
+label("Hello world!");
+// ${unique_word}

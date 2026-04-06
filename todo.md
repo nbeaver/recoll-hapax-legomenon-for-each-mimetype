@@ -7,24 +7,24 @@ Output
 Mimetypes to add
 ----------------
 
-- [ ] .ahk file (Autohotkey)
-- [ ] .asy file
+- [x] .ahk file (Autohotkey)
+- [x] .asy file (Asymptote)
 - [ ] .azw file (application/vnd.amazon.mobi8-ebook)
 - [ ] .azw3 file (application/vnd.amazon.mobi8-ebook)
-- [ ] .bas file (Basic source code, e.g. VB6)
+- [x] .bas file (Basic source code, e.g. VB6)
 - [ ] .cfg file
 - [ ] .cmd
 - [ ] .editorconfig files
-- [ ] .grmt files (map to application/xml)
-- [ ] .ini files
+- [x] .grmt files (map to application/xml)
+- [x] .ini files
 - [ ] .kfx files (application/vnd.amazon.mobi8-ebook)
-- [ ] .log files
+- [x] .log files
 - [ ] .mbox (application/mbox)
 - [ ] .mobi files
 - [ ] .opf file (Open eBook, e.g. metadata.opf)
-- [ ] .pov file (POV-Ray)
-- [ ] .ps1 file (PowerScript)
-- [ ] .service file (systemd)
+- [x] .pov file (POV-Ray)
+- [x] .ps1 file (PowerScript)
+- [x] .service file (systemd)
 - [ ] .vbe file
 - [ ] .vbs file
 - [ ] .xspf file (application/xspf+xml)
